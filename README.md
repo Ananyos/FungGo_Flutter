@@ -1,79 +1,68 @@
-Song Finder App 🎵
+# 🎵 FungGO! : Song searching application
 
 A Flutter application that allows users to search for songs, view lyrics, and manage their listening history and favorites.
 
-✨ Features
+---
 
-Smart Search: Search for songs by Title, Artist, or Lyrics.
+## ✨ Features
 
-Keyword Highlighting:
+### **Search**
+- Search for songs by **Title**, **Artist**, or **Lyrics**.
 
-Search terms are highlighted in the song title and artist name.
+### **Keyword Highlighting**
+- Search terms are automatically highlighted in the song title and artist name.
 
-Lyrics Snippets: Automatically finds and displays the specific part of the lyrics that matches your search query directly on the card.
+### **Lyrics Snippets**
+- Displays the exact part of the lyrics that matches your search query directly on each song card.
 
-Sidebar Navigation: Easy access to Home, History, and Bookmarks via a custom drawer menu.
+### **Sidebar Navigation**
+- Convenient drawer menu with quick access to:
+  - Home
+  - History
+  - Bookmarks
 
-Search History: Automatically saves the last 10 songs you've viewed for quick access.
+### **Search History**
+- Automatically saves your **last 10 viewed songs**.
 
-Bookmarks: Save your favorite songs to a dedicated "Bookmarks" list.
+### **Bookmarks**
+- Save your favorite songs to a dedicated **Bookmarks** section.
 
-Clean UI: A minimalist, user-friendly interface inspired by modern music apps.
+### **Clean UI**
+- Minimalist, modern interface similar to popular music apps.
 
-📱 Screens
+---
 
-Landing Page: The main hub with a clean search interface.
+## 📱 Screens
 
-Song Detail Page: Displays full song information and lyrics.
+- **Landing Page** – Main search hub with clean UI  
+- **Song Detail Page** – Displays full song details & full lyrics  
+- **Search History** – Recently viewed songs  
+- **Bookmarks** – List of favorited/saved songs  
 
-Search History: A list of recently viewed songs.
+---
+## 🚀 Getting Started
 
-Bookmarks: A collection of saved/favorite songs.
+### **Prerequisites**
+- Flutter SDK installed  
+- Any preferred editor (VS Code, Android Studio, etc.)
 
-📂 Project Structure
+---
 
-lib/
-├── models/
-│   └── song.dart           # Data model for Song objects
-├── screens/
-│   ├── sidebar_pages.dart  # Search History and Bookmarks screens
-│   └── song_detail_page.dart # Detailed view of a specific song
-├── services/
-│   ├── mock_database.dart  # Mock data source for searching
-│   └── user_manager.dart   # Singleton for managing History & Bookmarks state
-├── widgets/
-│   └── song_card.dart      # Reusable widget for displaying song info & highlighting
-└── landing_page.dart       # Main entry point with Search & Drawer
-
-
-🚀 Getting Started
-
-Prerequisites
-
-Flutter SDK
-
-A code editor (VS Code, Android Studio, etc.)
-
-Installation
+## 🛠 Installation
 
 Clone the repository:
 
-git clone [https://github.com/Ananyos/FungGo_Flutter](https://github.com/Ananyos/FungGo_Flutter)
-
-
-Navigate to the project directory:
-
+```bash
+git clone https://github.com/Ananyos/FungGo_Flutter
+```
+```bash
 cd FungGo_Flutter
-
-
-Install dependencies:
-
+```
+```bash
 flutter pub get
-
-
-Run the app:
-
+```
+```bash
 flutter run
+```
 
 
-🛠️ Customization
