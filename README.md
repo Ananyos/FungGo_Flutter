@@ -48,6 +48,28 @@ A Flutter application that allows users to search for songs, view lyrics, and ma
 
 ---
 
+## Dependencies
+
+Add the following under **dependencies** to enable SQLite, path utilities, and state management:
+
+```yaml
+
+dependencies:
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  provider: ^6.1.5+1
+  path_provider: ^2.1.5
+```
+
+# Ensures Material Icons are included
+```yaml
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/database/songdb.db
+```
+
 ## 🛠 Installation
 
 Clone the repository:
